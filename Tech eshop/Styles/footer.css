@@ -1,0 +1,71 @@
+.footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(249, 109, 109);
+  height: 250px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.first-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.footer-main-title{
+  color: rgb(255, 187, 187);
+  cursor: default;
+}
+
+.first-li{
+  margin-top: -20px;
+}
+
+li{
+  color: white;
+  font-weight: 400;
+  margin-left: -35px;
+  transition: color cursor 0.15s;
+}
+
+li:hover{
+  color: rgb(223, 216, 216);
+  cursor: pointer;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.contact-par{
+  margin-top: -5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: cursor color 0.15s;
+}
+
+.contact-par:hover{
+  cursor: pointer;
+  color: rgb(223, 216, 216);
+}
+
+.third-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 30px;
+}

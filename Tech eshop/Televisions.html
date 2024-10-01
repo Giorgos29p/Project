@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/header.css">
+  <link rel="stylesheet" href="Styles/General.css">
+  <link rel="stylesheet" href="Styles/product-menu.css">
+  <link rel="stylesheet" href="Styles/footer.css">
+  <link rel="stylesheet" href="Styles/Sidebar.css">
+  <title>Televisions</title>
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <a href="Main.html">
+        <div class="site-logo">
+          <img src="images/Header/Site-logo.png" class="site-logo-icon">
+        </div>
+      </a>
+      <div class="menu-button" onclick="openSidebar()">
+        <img src="images/Header/Menu.png" class="menu-button-icon">
+      </div>
+    </div>
+    <div class="middle-section">
+      <input type="search" class="searchbar" placeholder="Search">
+      <button class="search-button">
+        <img src="images/Header/Search-logo.png" class="search-button-icon">
+      </button>
+    </div>
+    <div class="right-section">
+      <button class="profile-button">
+        <img src="images/Header/profile-logo.png" class="profile-button-icon">
+      </button>
+      <button class="checkout-button">
+        <img src="images/Header/checkout-logo.png" class="checkout-button-icon">
+        <div class="cart-quantity js-cart-quantity">0</div>
+      </button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+      <div class="sidebar-menu">
+        <a href="Earphones.html">
+          <p class="sidebar-menu-choice">
+            Earphones
+          </p>
+        </a>
+        <a href="Laptops.html">
+          <p class="sidebar-menu-choice">
+            Laptops
+          </p>
+        </a>
+        <a href="Smartphones.html">
+          <p class="sidebar-menu-choice">
+            Smartphones
+          </p>
+        </a>
+        <a href="Smartwatches.html">
+          <p class="sidebar-menu-choice">
+            Smartwatches
+          </p>
+        </a>
+        <a href="Televisions.html">
+          <p class="sidebar-menu-choice">
+            Televisions
+          </p>
+        </a>
+      </div>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h1 class="product-main-title">
+      Televisions
+    </h1>
+  
+    <div class="grid-container js-products-grid">
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="first-section">
+      <h4 class="footer-main-title">
+        OUR COMPANY
+      </h4>
+      <ul type="none">
+        <li class="first-li">Terms of Use</li>
+        <li>Who We Are</li>
+        <li>Partnerships</li>
+        <li>Career Opportunities</li>
+      </ul>
+    </div>
+    <div class="second-section">
+      <h4 class="footer-main-title">
+        CONTACT
+      </h4>
+      <ul type="none">
+        <li class="first-li">Customer Service Line:</li>
+        <li><span class="under">210 xxx xxx</span></li>
+        <li> or send an email to:</li>
+        <li><span class="under">contact@tech-shop.com</span></li>
+      </ul>
+      <p class="contact-par">Contact Us</p>
+    </div>
+    <div class="third-section">
+      <h4 class="footer-main-title">
+        HELP
+      </h4>
+      <ul type="none">
+        <li class="first-li">Payment Methods</li>
+        <li>Order Status</li>
+        <li>Repair Status</li>
+        <li>Delivery & Pickup</li>
+        <li>Returns</li>
+      </ul>
+    </div>
+  </div>
+
+  <script type="module" src="Scripts/televisions.js"></script>
+  <script src="Scripts/Sidebar.js"></script>
+</body>
+</html>

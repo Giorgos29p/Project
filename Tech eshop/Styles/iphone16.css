@@ -1,0 +1,84 @@
+.iphone-main-title{
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 80px;
+  margin-left: 280px;
+}
+
+.iphone-container{
+  display: flex;
+  width: 800px;
+  height: 300px;
+  border: 1px solid rgb(249, 109, 109);
+  border-radius: 8px;
+  background-color: white;
+  transition: box-shadow 0.15s;
+}
+
+.iphone-container:hover{
+  box-shadow: 8px 8px 3px rgba(73, 68, 68, 0.05);
+}
+
+.iphone-set{
+  padding-top: 25px;
+  padding-left: 30px;
+  height: 250px;
+  width: 250px;
+  transition: cursor 0.15s;
+}
+
+.iphone-set:hover{
+  cursor: pointer;
+}
+
+.iphone-title{
+  margin-left: 80px;
+  margin-top: 27px;
+  font-size: 22px;
+  font-weight: 500;
+  transition: text-decoration cursor 0.15s;
+  height: 20px;
+  width: 900px;
+  position: relative;
+}
+
+.iphone-title:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.iphone-price{
+  position: absolute;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 370px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.iphone-button{
+  background-color: rgb(253, 138, 138);
+  height: 30px;
+  margin-top: 220px;
+  margin-left: 370px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 15px 110px 35px 110px;
+  font-size: 24px;
+  font-weight: 500;
+  transition: cursor opacity 0.15s;
+  position: absolute;
+}
+
+.iphone-button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}

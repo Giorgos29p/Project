@@ -1,0 +1,13 @@
+body{
+  background-color: whitesmoke;
+  height: 1500px;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,Arial;
+}
+
+h1,
+h2,
+h4{
+  font-weight: 400;
+}

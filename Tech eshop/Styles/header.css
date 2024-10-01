@@ -1,0 +1,160 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(253, 138, 138);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 100;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.site-logo{
+  margin-left: 70px;
+  margin-top: 10px;
+  transition: cursor 0.15s;
+}
+
+.site-logo:hover{
+  cursor: pointer;
+}
+
+.site-logo-icon{
+  height: 45px;
+  width: 185px;
+}
+
+.menu-button{
+  margin-top: 13px;
+  margin-left: 30px;
+  transition: cursor 0.15s;
+}
+
+.menu-button:hover{
+  cursor: pointer;
+}
+
+.menu-button-icon{
+  height: 23px;
+  width: 27px;
+}
+
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 180px;
+  margin-right: 50px;
+  margin-top: 8px;
+  max-width: 750px;
+  flex: 1;
+}
+
+.searchbar{
+  position: relative;
+  flex: 1;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  padding-left: 45px;
+  transition: box-shadow 0.15s;
+  cursor: default;
+  margin-right: 150px;
+}
+
+.searchbar:hover{
+  box-shadow:inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.searchbar::placeholder{
+  font-size: 16px;
+}
+
+.search-button{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  transition: cursor background-color 0.15s;
+  margin-left: 4px;
+}
+
+.search-button:hover{
+  cursor: pointer;
+  background-color: rgb(249, 247, 247);
+}
+
+.search-button-icon{
+  height: 20px;
+  width: 20px;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-button{
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: rgb(253, 138, 138);
+  margin-top: 10px;
+  transition: cursor 0.15s;
+}
+
+.profile-button:hover{
+  cursor: pointer;
+}
+
+.profile-button-icon{
+  padding-top: 2px;
+  height: 25px;
+  width: 19px;
+}
+
+.checkout-button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: rgb(253, 138, 138);
+  margin-top: 10px;
+  transition: cursor 0.15s;
+  margin-left: 25px;
+  position: relative;
+}
+
+.checkout-button:hover{
+  cursor: pointer;
+}
+
+.checkout-button-icon{
+  padding-top: 2px;
+  height: 27px;
+  width: 27px;
+}
+
+.cart-quantity{
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 27px;
+  color: rgb(253, 138, 138);
+  background-color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 1px 4px 0px 4px;
+  border-radius: 50%;
+}
